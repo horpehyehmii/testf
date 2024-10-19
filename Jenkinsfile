@@ -11,7 +11,7 @@ pipeline {
         stage('Load and Run Groovy Script') {
             steps {
                 script {
-                    sh "aws --version"
+                    sh "docker --version"
                     // sh """
                         
                     // """
