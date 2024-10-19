@@ -11,7 +11,10 @@ pipeline {
         stage('Load and Run Groovy Script') {
             steps {
                 script {
-                    sh "ls -la"
+                    sh "aws --version"
+                    // sh """
+                        
+                    // """
                 }
             }
         }
